@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+
+
+
+
+/*COMMON START*/
+header, main, nav{
+  display: block;
+}
+
+html{
+  padding: 0;
+  margin: 0;
+  overflow-y:auto;
+  overflow-x: hidden;
+}
+body, h1, h2, h3, ul, li, header,section,a, p, main, nav{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.red{
+  color: red;
+}
+/*COMMON ENDS*/
+
+
+
+
+
+/*SIDE NAVIGATION START*/
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 25;
+  top: 0;
+  left: 0;
+  background-image: url("../images/ichigo.jpg");
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 60px;
+  width: 15%;
+  float: left;
+  display: none;
+}
+
+.sidenav li a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+  color: #818181;/*000*/
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 175px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+  }
+}
+/*SIDE NAVIGATION ENDS*/
+
+
+
+
+
+
+/*HEADER START*/
+.logo{
+  width: 3%;
+  float: left;
+  padding-right: 5px;
+}
+.imagewrapper {
+  background-image: url("../images/ichigo.jpg");
+}
+.character {
+  color: red;
+  font-size: 40px;
+  font-style: italic;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+.banner {
+  color: white;
+  overflow: hidden;
+  padding: 15px 10px 10px 40px;
+  text-align: left;
+  width: auto;
+  padding-bottom: 45px;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+#placeholder{
+  float:right;
+  margin-right:5px;
+  color:red
+}
+/*HEADER ENDS*/
+
+
+
+
+
+
+/*MENUBAR STARTS*/
+.menubar {
+  float: left;
+  padding: 8px 20px 8px 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: -5px;
+  font-weight: bold;
+}
+.menubar a:hover {
+  background-color:none;
+  color: #818181;
+}
+.menubar a{
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+/*MENUBAR ENDS*/
+
+
+
+
+
+
+
+
+/*TOP NAVIGATION STARTS*/
+.topnav {
+  background-color: none;
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  z-index: 10;
+  padding-bottom: 20px;
+}
+
+.topnav li a {
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+  margin-bottom: -5px;
+  margin-top: 0px;
+}
+
+.topnav a:hover {
+  background-color:none;
+  color: #818181;
+}
+
+li a {
+  color: white;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+/*TOP NAVIGATION ENDS*/
+
+
+
+
+
+
+/*CONTAINER STARTS*/
+body {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  transition: background-color .5s;
+  height:100%;
+  padding-bottom:1px;
+}
+
+.content {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  float: left;
+  z-index: 1;
+  width: 100%;
+  background-color: inherit;
+}
+#main{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/*CONTAINER ENDS*/
+
+
+
+
+
+
+/*DYNAMIC CONTAINER STARTS*/
+
+/**IMAGE SECTION STARTS**/
+/* .sec-intro {
+  padding-top: 0;
+  border-top:3px solid red;
+  max-width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.img {
+  width: 25%;
+  height: 25%;
+  float: left;
+} */
+/**IMAGE SECTION ENDS**/
+
+
+
+
+
+
+/*NOTES SECTION STARTS*/
+
+.detailpage{
+  position:   relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow: auto;
+  width: 25%;
+  left: 37.5%;
+  background-color: white;
+  padding: 5px;
+  border: 2px solid red;
+}
+
+.detailpage p{
+  text-align: center;
+  font-weight: bold;
+}
+
+#submitbtn1 {
+  cursor: pointer;
+  display: block;
+  text-align:center;
+  font-size: 15px;
+  color: white;
+  padding: 5px 7px;
+  background-color: red;
+  font-variant: small-caps;
+  font-family: inherit;
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom:10px;
+}
+#submitbtn1 span{
+  color: black;
+  font-weight: bold;
+}
+
+
+/*NOTES SECTION ENDS*/
+/*DYNAMIC CONTAINER ENDS*/
+
+
+
+
+
+
+
+/*FOOTER STARTS*/
+footer {
+  clear: both;
+  background-color: #111;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  position:absolute;
+  border-top: 3px solid red;
+  bottom:0;
+  width:100%;
+  height:30px;   /* Height of the footer */
+}
+/*FOOTER ENDS*/

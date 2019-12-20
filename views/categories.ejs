@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Anime Wolrd</title>
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheet/categories.css">
+      <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/assets/fontawesome-free-5.6.3-web/css/all.css">
+      <script type="text/javascript" src="/assets/js/myscripts.js"></script>
+    </head>
+    <body>
+      <div class="wrapper">
+        <% include partials/site-navigation.ejs %>
+        <div id="main">
+          <div class="imagewrapper">
+            <% include partials/header.ejs %>
+            <% include partials/user-navigation.ejs %>
+          </div>
+          <div class="container">
+              <div class="content">
+                  <div class="sec-intro">
+                      <img class="img" src="/assets/images/tobi.jpg" alt="itachi" />
+                      <img class="img" src="/assets/images/itachi.jpg" alt="kaneki" />
+                      <img class="img" src="/assets/images/ichigo.jpg" alt="kaneki" />
+                      <img class="img" src="/assets/images/anime1.jpg" alt="kaneki" />
+                  </div>
+                <%
+                for(var i=0; i< data.categories.length; i+=3){
+                  console.log("Most outer loop"); %>
+                  <div class="categories-list-1">
+                  <% for (var k=i; k< i+3; k++ ){ %>
+                    <div class="dropdown">
+                      <button class="dropbtn" onclick="myFunction(this)"><span><%= data.categories[k].substr(0,1) %></span><%= data.categories[k].substr(1) %>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                      <%
+                        for(var j=0 ; j< data.items.length ; j++){
+                          if(data.categories[k] === data.items[j].catalogCategory) { %>
+                              <a href="/item?itemCode=<%= data.items[j].itemCode %>"><%= data.items[j].itemName %></a>
+                            <%
+                          }
+                        }
+                        %>
+                        </div>
+                    </div>
+                    <% } %>
+                    </div>
+
+                  <% } %>
+                  </div>
+              </div>
+              <% include partials/footer.ejs %>
+          </div>
+        </div>
+    </body>
+</html>

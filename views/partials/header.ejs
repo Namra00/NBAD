@@ -1,0 +1,8 @@
+<header class="banner">
+  <span> <img src=" /assets/images/sharinggun.jpg" alt="sharinggun" class="logo"> </span><a href="#"><h1><span class="character">A</span>nime World</h1></a>
+  <% if(datasession === undefined) { %>
+    <span id="placeholder"> Not Signed In</span>
+  <% }else{ %>
+    <span id="placeholder"> Welcome <%= datasession %></span>
+  <%}%> 
+</header>

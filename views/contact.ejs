@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Anime Wolrd</title>
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheet/contact.css">
+      <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/assets/fontawesome-free-5.6.3-web/css/all.css">
+      <script type="text/javascript" src="/assets/js/myscripts.js"></script>
+    </head>
+    <body>
+      <div class="wrapper">
+        <% include partials/site-navigation.ejs %>
+        <div id="main">
+          <div class="imagewrapper">
+            <% include partials/header.ejs %>
+            <% include partials/user-navigation.ejs %>
+          </div>
+          <div class="container">
+              <div class="content">
+
+                  <div class="detailpage">
+                    <div class="contact-submit">
+                      <h2>Get in Touch</h2>
+                      <h4>Please fill out the quick form.</h4>
+                      <input type="text" name="Name" value="" placeholder="Name" ><br>
+                      <input type="text" name="Email" value="" placeholder="Your Email Address"><br>
+                      <textarea name="Message" rows="8" cols="51" placeholder="Message"></textarea><br>
+                      <button type="button" id="submitbtn" name="button"> <span>S</span>ubmit </button>
+                    </div>
+                    <div class="contact-text">
+                      <h3>Contact With Us:</h3><br>
+                      <p>For support or any Questions: Email us at <a href="mailto:ndesai24@uncc.edu">ndesai24@uncc.edu</a></p><br><br>
+                      <h3>Anime World ,UNCCharlotte</h3>
+                      <address>
+                        Developed by <a href="mailto:ndesai24@uncc.edu">Namra Desai</a>.<br>
+                        Visit us at:<br>
+                        9501G University Terrece Drive, Charlotte<br>
+                        North Carolina, 28262 <br>
+                        USA
+                      </address>
+                    </div>
+                  </div>
+
+              </div>
+              <% include partials/footer.ejs %>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

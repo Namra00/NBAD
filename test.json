@@ -1,0 +1,398 @@
+[
+    {
+      itemCode: 1,
+      itemName: "Naruto",
+      catalogCategory: "Action",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke.jpg"
+    },
+    {
+      itemCode: 2,
+      itemName: "Bleach",
+      catalogCategory: "Action",
+      description: "High school student Kurosaki Ichigo is unlike any ordinary kid because he can see ghosts. After an accident with a hollow, he got a power.So begins Kurosaki Ichigo's training and duty as a Shinigami, Soul Reaper. ",
+      trivia:"In the manga, Orihime Inoue's mother was a prostitute and her father was a drunk and they used to abuse her and her older brother, Sora.. In the anime, this was toned down. ",
+      userId: 1,
+      imgUrl: "/assets/images/ichigo.jpg"
+    },
+    {
+      itemCode: 3,
+      itemName: "One Piece",
+      catalogCategory: "Action",
+      description: "The series focuses on Monkey D. Luffy, a young man who, inspired by his childhood idol and powerful pirate Red Haired Shanks, sets off on a journey from the East Blue Sea to find the famed treasure One Piece and proclaim himself the King of the Pirates. In an effort to organize his own crew, the Straw Hat Pirates (Mugiwara Kaizoku-danhen), Luffy rescues and befriends a swordsman named Roronoa Zoro, and they head off in search of the One Piece.",
+      trivia:"The reason why Zoro dislike Sanji is because he treats women differently than he treats men, and ever since Kuina complained about being a girl, Zoro is set on the idea that gender should not decide how you treat a person",
+      userId: 1,
+      imgUrl: "/assets/images/luffybadass.gif"
+    },
+    {
+      itemCode: 4,
+      itemName: "SAO",
+      catalogCategory: "Action",
+      description: "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
+      trivia:"The storyline is based on the light novel series Sword Art Online originally intended as an entry into a short story competition. The original novel was twice as long as allowed for the contest but Reki couldn't bear taking anything out of the story leading to it being self published ",
+      userId: 1,
+      imgUrl: "/assets/images/anime1.jpg"
+    },
+    {
+      itemCode: 5,
+      itemName: "Rouroni Kenshin",
+      catalogCategory: "Action",
+      description: "The adventures of a young wandering swordsman who stumbles upon a struggling martial arts school in Meiji era Japan. ",
+      trivia:"One of the main characters, Hajime Saitoh, was a real person. Saitoh was a swordsman for the Shinsen Gumi throughout the last days of the Bakufu (Shogunate) government and the fighting leading up to the Meiji Restoration. After the defeat of the Shogunate, he did obtain a job in a provincial police organization, where he spent his days before this death near the end of the century.  ",
+      userId: 1,
+      imgUrl: "/assets/images/anime1.jpg"
+    },
+    {
+      itemCode: 6,
+      itemName: "Boruto",
+      catalogCategory: "Adventure",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke2.jpg"
+    },
+    {
+      itemCode: 7,
+      itemName: "Angel of Death",
+      catalogCategory: "Adventure",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke.jpg"
+    },
+    {
+      itemCode: 8,
+      itemName: "DanMachi",
+      catalogCategory: "Adventure",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas.jpg"
+    },
+    {
+      itemCode: 9,
+      itemName: "Detective Conan",
+      catalogCategory: "Adventure",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas2.jpg"
+    },
+    {
+      itemCode: 10,
+      itemName: "Dororo",
+      catalogCategory: "Adventure",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas3.jpg"
+    },
+    {
+      itemCode: 11,
+      itemName: "Gintama",
+      catalogCategory: "Comedy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas4.jpg"
+    },
+    {
+      itemCode: 12,
+      itemName: "Daily Lives of Highschool Boys",
+      catalogCategory: "Comedy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/tobi.jpg"
+    },
+    {
+      itemCode: 13,
+      itemName: "Galaxy Angel",
+      catalogCategory: "Comedy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 4,
+      imgUrl: "/assets/images/zeldris.jpg"
+    },
+    {
+      itemCode: 14,
+      itemName: "Gintama",
+      catalogCategory: "Comedy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke.jpg"
+    },
+    {
+      itemCode: 15,
+      itemName: "One Punch Man",
+      catalogCategory: "Comedy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/anime2.jpg"
+    },
+    {
+      itemCode: 16,
+      itemName: "Berserk",
+      catalogCategory: "Fantasy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/attacks-on-titan.jpg"
+    },
+    {
+      itemCode: 17,
+      itemName: "Haikyuu",
+      catalogCategory: "Fantasy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/dbz.jpg"
+    },
+    {
+      itemCode: 18,
+      itemName: "Kuroko no basket",
+      catalogCategory: "Fantasy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/escanor.jpg"
+    },
+    {
+      itemCode: 19,
+      itemName: "One Outs",
+      catalogCategory: "Fantasy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/goku-broly.jpg"
+    },
+    {
+      itemCode: 20,
+      itemName: "Code Geass",
+      catalogCategory: "Fantasy",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/hxh.jpg"
+    },
+    {
+      itemCode: 21,
+      itemName: "DBZ",
+      catalogCategory: "Martial Arts",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/ichigo.jpg"
+    },
+    {
+      itemCode: 22,
+      itemName: "Mobile fighter",
+      catalogCategory: "Martial Arts",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/itachi.jpg"
+    },
+    {
+      itemCode: 23,
+      itemName: "Samurai",
+      catalogCategory: "Martial Arts",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/itachi2.jpg"
+    },
+    {
+      itemCode: 24,
+      itemName: "Ramna1/2",
+      catalogCategory: "Martial Arts",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/kaneki.jpg"
+    },
+    {
+      itemCode: 25,
+      itemName: "Batman",
+      catalogCategory: "Martial Arts",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/kaneki2.jpg"
+    },
+    {
+      itemCode: 26,
+      itemName: "Fate/zero",
+      catalogCategory: "Magic",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke2.jpg"
+    },
+    {
+      itemCode: 27,
+      itemName: "Fairy tail",
+      catalogCategory: "Magic",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/seven deadly sins.jpg"
+    },
+    {
+      itemCode: 28,
+      itemName: "Black Clover",
+      catalogCategory: "Magic",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/anime1.jpg"
+    },
+    {
+      itemCode: 29,
+      itemName: "Strike Witches",
+      catalogCategory: "Magic",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke.jpg"
+    },
+    {
+      itemCode: 30,
+      itemName: "Cowboy Bepop",
+      catalogCategory: "Sci-Fi",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas.jpg"
+    },
+    {
+      itemCode: 31,
+      itemName: "Gurren Lagann",
+      catalogCategory: "Sci-Fi",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/escanor.jpg"
+    },
+    {
+      itemCode: 32,
+      itemName: "Fullmetal Alchamist",
+      catalogCategory: "Sci-Fi",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/itachi2.jpg"
+    },
+    {
+      itemCode: 33,
+      itemName: "Ergo Proxy",
+      catalogCategory: "Sci-Fi",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/ichigo2.jpg"
+    },
+    {
+      itemCode: 34,
+      itemName: "Steins",
+      catalogCategory: "Sci-Fi",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/luffybadass.jpg"
+    },
+    {
+      itemCode: 35,
+      itemName: "Death Note",
+      catalogCategory: "Supernatural",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/dbz.jpg"
+    },
+    {
+      itemCode: 36,
+      itemName: "Tokyo Ghoul",
+      catalogCategory: "Supernatural",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/kaneki2.jpg"
+    },
+    {
+      itemCode: 37,
+      itemName: "No Game No Life",
+      catalogCategory: "Supernatural",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/anime1.jpg"
+    },
+    {
+      itemCode: 38,
+      itemName: "Mirai Nikki",
+      catalogCategory: "Supernatural",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/goku-broly.jpg"
+    },
+    {
+      itemCode: 39,
+      itemName: "Soul Eater",
+      catalogCategory: "Supernatural",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas4.jpg"
+    },
+    {
+      itemCode: 40,
+      itemName: "Seven Deadly sins",
+      catalogCategory: "Thriller",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/meliodas.jpg"
+    },
+    {
+      itemCode: 41,
+      itemName: "Ao no Exorcist",
+      catalogCategory: "Thriller",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/hxh.jpg"
+    },
+    {
+      itemCode: 42,
+      itemName: "Attacks on titan",
+      catalogCategory: "Thriller",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/tobi.jpg"
+    },
+    {
+      itemCode: 43,
+      itemName: "Avatar",
+      catalogCategory: "Thriller",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/sasuke2.jpg"
+    },
+    {
+      itemCode: 44,
+      itemName: "Akame ga kill",
+      catalogCategory: "Thriller",
+      description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      trivia:"The character of Gaara draws inspiration from Neo because the creator was a fan of The Matrix. ",
+      userId: 1,
+      imgUrl: "/assets/images/itachi.jpg"
+    }
+  ]

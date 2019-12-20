@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Anime Wolrd</title>
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheet/signin.css">
+      <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/assets/fontawesome-free-5.6.3-web/css/all.css">
+      <script type="text/javascript" src="/assets/js/myscripts.js"></script>
+    </head>
+    <body>
+      <div class="wrapper">
+        <% include partials/site-navigation.ejs %>
+        <div id="main">
+          <div class="imagewrapper">
+            <% include partials/header.ejs %>
+            <% include partials/user-navigation.ejs %>
+          </div>
+          <div class="container">
+              <div class="content">
+
+                  <div class="detailpage">
+                    <% if (flag == 1) {%>
+                      <h3> Please Sign In Here</h3><br>
+                      <form class="loginform" action="/signin" method="post">
+                        UserName: <input type="text" name="UserName" value="" placeholder="UserName" ><br><br>
+                        Password: <input type="password" name="Password" value="" placeholder="Password" ><br>
+                        <input type="submit" name="" value="Submit">
+                      </form>
+                    <%}else{%>
+                      <h2>Username or Password is wrong!!</h1>
+                      <h3>Try to sign in again!</h3>
+                      <form class="loginform" action="/signin" method="post">
+                        UserName: <input type="text" name="UserName" value="" placeholder="userName" ><br><br>
+                        Password: <input type="password" name="Password" value="" placeholder="password" ><br>
+                        <input type="submit" name="" value="Submit">
+                        <!-- <button type="submit" id="submitbtn1" name="action"> <span>S</span>ubmit </button> -->
+                      </form>
+                      <%}%>
+                  </div>
+
+              </div>
+              <% include partials/footer.ejs %>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

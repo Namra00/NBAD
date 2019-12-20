@@ -1,0 +1,16 @@
+<div id="topnavdiv">
+  <nav id="topnav" class="topnav">
+    <span class="menubar" onclick="openNav()"><a href="#">&#9776; <span class="red">o</span>pen</a></span>
+    <ul>
+      <% if(datasession === undefined) { %>
+      <li><a href="/signin"><i class="fa fa-fw fa-user"></i>
+      <span class="red">S</span>ign in </a></li>
+      <% }else{ %>
+        <li><a href="/signout"><i class="fa fa-fw fa-user"></i>
+        <span class="red">S</span>ign out
+      <%}%> </a></li>
+      <li><a href="/myitems"><i class="fa fa-archive"></i> <span  class="red">M</span>y Animes</a></li>
+      <li><a href="javascript:void(0)"><i class="fa fa-fw fa-shopping-cart"></i> <span class="red">C</span>art</a></li>
+    </ul>
+  </nav>
+</div>

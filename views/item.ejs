@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Anime Wolrd</title>
+      <link rel="stylesheet" type="text/css" href="/assets/stylesheet/item.css">
+      <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/assets/fontawesome-free-5.6.3-web/css/all.css">
+      <script type="text/javascript" src="/assets/js/myscripts.js"></script>
+    </head>
+    <body>
+      <div class="wrapper">
+        <% include partials/site-navigation.ejs %>
+        <div id="main">
+          <div class="imagewrapper">
+            <% include partials/header.ejs %>
+            <% include partials/user-navigation.ejs %>
+          </div>
+          <div class="container">
+              <div class="content">
+
+
+                  <div class="sec-intro">
+                      <img class="img" src="/assets/images/zeldris.jpg" alt="itachi" />
+                      <img class="img" src="/assets/images/meliodas2.jpg" alt="kaneki" />
+                      <img class="img" src="/assets/images/escanor.jpg" alt="kaneki" />
+                      <img class="img" src="/assets/images/meliodas3.jpg" alt="kaneki" />
+                  </div>
+
+                  <div class="detailpage">
+                      <div class="headingwrapper">
+                        <div class="detailimage">
+                          <img id="cover" src="<%= data.getImageURL() %>" alt="seven deadly sins">
+                        </div>
+                        <div class="detailname">
+                          <h2><%= data.itemName %>  </h2><h5>(Seven Deadly Sins)</h5>
+                          <p><%= data.catalogCategory %></p><br>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                        </div>
+                      </div>
+
+                      <div class="detailoperation">
+                        <form class="form1" action="/myitems" method="get">
+                          <input type=hidden name='itemCode' value="<%= data.itemCode %>" >
+                          <button type="submit" name="action" value="save">
+                             <span class="blackletter">B</span>ookmark</button>
+                        </form>
+                        <form class="form1" action="/feedback" method="get">
+                            <input type=hidden name='itemCode' value="<%= data.itemCode %>" >
+                          <button type="submit" name="action"> <span class="blackletter">R</span>ate it</button>
+                        </form>
+                      </div>
+
+                      <div class="detailcontent">
+
+                          <article class="summary">
+                            <h4><span class="redletter">S</span>ummary   </h4><hr><br>
+                            <%= data.description %>
+                          </article>
+
+                          <article class="summary">
+                            <h4><span class="redletter">T</span>rivia  </h4><hr><br>
+                            <%= data.trivia %>
+                          </article>
+
+                        <h4 class="cast">
+                          Series Directed By
+                        </h4>
+                        <table class="creater">
+                            <colgroup>
+                              <col class="column1">
+                              <col class="column2">
+                              <col class="column3">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                  <td class="name">
+                                    <a> Tensai Okamura</a>
+                                  </td>
+                                  <td>...</td>
+                                  <td class="credit">(24 episodes, 2014-2015)</td>
+                                </tr>
+                                <tr>
+                                  <td class="name">
+                                      <a> Tomokazu Tokoro</a>
+                                  </td>
+                                  <td>...</td>
+                                  <td class="credit">(2 episodes, 2014-2016)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h4 class="cast">
+                          Series Writing Credit
+                        </h4>
+
+                        <table class="creater">
+                            <colgroup>
+                              <col class="column1">
+                              <col class="column2">
+                              <col class="column3">
+                            </colgroup>
+                            <tbody>
+                              <tr>
+                                <td class="name">
+                                  <a> Jalen K. Cassell</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2014-2015)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Clark Cheng</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2014-2015)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Michael McConnohie</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2014-2015)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Joel McDonald</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2014-2015)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Shotaro Suga</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2014-2015)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Mike McFarland</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (24 episodes, 2018)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Yuniko Ayana</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (1 episode, 2016)
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="name">
+                                  <a> Marlan Moore</a>
+                                </td>
+                                <td>...</td>
+                                <td class="credit">
+                                    (1 episode, 2016)
+                                </td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        <div class="article" id="titleDetails">
+                            <h2><span class="redletter">D</span>etails  </h2><hr><br>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Official Sites:</h4>
+                                <a href="https://www.7-taizai.net/" rel="nofollow">Official Website [Japan]</a>
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Country:</h4>
+                                <a href="https://en.wikipedia.org/wiki/History_of_anime">Japan</a>
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Language:</h4>
+                                <a>Japanese</a>
+                            </div>
+
+
+                            <div class="txt-block">
+                                <h4 class="inline">Release Date:</h4> 1 November 2015 (USA)
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Also Known As:</h4> Nanatsu no taizai
+                            </div>
+
+
+                            <div class="txt-block">
+                                <h4 class="inline">Budget:</h4>JPY&nbsp;120,000,000
+                                <span class="attribute">(estimated)</span>
+                            </div>
+
+
+                            <div class="txt-block">
+                                <h4 class="inline">Production Co:</h4>
+                                <a> A-1 Pictures</a>
+                            </div>
+
+
+                            <div class="txt-block">
+                                <h4 class="inline">Runtime:</h4>
+                                <time datetime="PT24M">24 min</time>
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Sound Mix:</h4>
+                                <a>Dolby Digital</a>
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Color:</h4>
+                                <a>Color</a>
+                            </div>
+
+                            <div class="txt-block">
+                                <h4 class="inline">Aspect Ratio:</h4> 16:9 HD
+                            </div>
+
+                            <div class="return">
+                                <form class="formreturn" action="/categories" method="get">
+                                <button type="submit" name="action" value="Return"> <span class="blackletter">R</span> e t u r n</button>
+                              </form>
+                            </div>
+                          </div>
+
+                        </div>
+                  </div>
+
+                </div>
+
+
+
+              </div>
+              <% include partials/footer.ejs %>
+          </div>
+        </div>
+    </body>
+</html>
