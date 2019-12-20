@@ -8,4 +8,4 @@ To have the project up and running you have to install node.js modules and Mongo
 
 ## Authors
 
-* **Billie Thompson**
+* **Namra Desai**
